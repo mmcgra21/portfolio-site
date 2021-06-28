@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael McGrath's Portfolio - Background Information</title>
+    <script src="https://kit.fontawesome.com/1f45407421.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/other-style.css">
+  </head>
+<body>
+    <div id="container">
+        <header>
+            <nav id="header-nav" class="navbar navbar-default">
+                <div id="nav-container" class="container-fluid">
+                    <div id="nav-header" class="navbar-header">
+                        <a href="index.html"><h1>Michael McGrath's Portfolio</h1></a>
+                        <button id="menu-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <h2>Background Information</h2>
+                    </div>
+    
+                    <div id="collapsable-nav" class="collapse navbar-collapse">
+                        <ul id="nav-list" class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="index.html"><i class="fas fa-home" aria-hidden="true"></i>  Home</a>
+                            </li>
+                            <li>
+                                <a class="current" href="background-information.html"><i class="fas fa-info-circle" aria-hidden="true"></i>  Background Information</a>
+                            </li>
+                            <li>
+                                <a href="work-experience.html"><i class="fas fa-briefcase" aria-hidden="true"></i>  Work Experience</a>
+                            </li>
+                            <li>
+                                <a href="skills.html"><i class="fas fa-tools" aria-hidden="true"></i>  Skills</a>
+                            </li>
+                       </ul>
+                     </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="align">
+                    <h3 class="align-left">Education</h3>
+                    <button id="expand" class="align-left" onclick="expand_button(this)">[expand]</button>
+                </div>
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <tr>
+                            <th class="first">School</th>
+                            <th>Major/Degree</th>
+                            <th>GPA</th>
+                            <th>Graduation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="GHS keep" tabindex="1" onfocus="open_up(this)" onblur="close_up(this)" onmouseenter="table_row_enter(this)" onmouseleave="table_row_leave(this)">
+                            <td class="first">Greenwich High School</td>
+                            <td class="second">
+                                <h5>Major/Degree</h5>
+                                ---------------------
+                            </td>
+                            <td class="second">
+                                <h5>GPA</h5>
+                                4.40
+                            </td>
+                            <td class="second">
+                                <h5>Graduation</h5>
+                                June, 2017
+                            </td>
+                            <td class="second details">
+                                <h5>Achievements</h5>
+                                <ul>
+                                    <li>National Honor Society</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="GHS details">
+                            <td colspan="4">
+                                <div class="detail-contents">
+                                    <h4>Achievements</h4>
+                                    <ul>
+                                        <li>National Honor Society</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="HC keep" tabindex="2" onfocus="open_up(this)" onblur="close_up(this)" onmouseenter="table_row_enter(this)" onmouseleave="table_row_leave(this)">
+                            <td class="first">College of the Holy Cross</td>
+                            <td class="second">
+                                <h5>Major/Degree</h5>
+                                B.A. Physics
+                            </td>
+                            <td class="second">
+                                <h5>GPA</h5>
+                                3.93
+                            </td>
+                            <td class="second">
+                                <h5>Graduation</h5>
+                                May, 2022
+                            </td>
+                            <td class="second details">
+                                <h5>Achievements</h5>
+                                <ul>
+                                    <li>1st Dean's list - College of the Holy Cross</li>
+                                    <li>Nugent Gold Medal - Excellence in Physics</li>
+                                    <li>Alpha Sigma Nu - Jesuit National Honor Society</li>
+                                    <li>Sigma Pi Sigma - Physics National Honor Society</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="HC details">
+                            <td colspan="4">
+                                <div class="detail-contents">
+                                    <h4>Achievements</h4>
+                                    <ul>
+                                        <li>1st Dean's list - College of the Holy Cross</li>
+                                        <li>Nugent Gold Medal - Excellence in Physics</li>
+                                        <li>Alpha Sigma Nu - Jesuit National Honor Society</li>
+                                        <li>Sigma Pi Sigma - Physics National Honor Society</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="CU keep" tabindex="3" onfocus="open_up(this)" onblur="close_up(this)" onmouseenter="table_row_enter(this)" onmouseleave="table_row_leave(this)">
+                            <td class="first">Columbia University</td>
+                            <td class="second">
+                                <h5>Major/Degree</h5>
+                                B.S. Electrical Engineering
+                            </td>
+                            <td class="second">
+                                <h5>GPA</h5>
+                                4.19
+                            </td>
+                            <td class="second">
+                                <h5>Graduation</h5>
+                                May, 2022
+                            </td>
+                            <td class="second details">
+                                <h5>Achievements</h5>
+                                <ul>
+                                    <li>Dean's list - Columbia University</li>
+                                    <li>Sigma Alpha Pi - National Society of Leadership and Success</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="CU details">
+                            <td colspan="4">
+                                <div class="detail-contents">
+                                    <h4>Achievements</h4>
+                                    <ul>
+                                        <li>Dean's list - Columbia University</li>
+                                        <li>Sigma Alpha Pi - National Society of Leadership and Success</li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h3>Memberships</h3>
+                <ul>
+                    <li>Institute of Electrical and Electronic Engineers (IEEE)</li>
+                    <li>Society of Physics Students</li>
+                    <li>Alpha Sigma Nu - Jesuit Honors Society</li>
+                    <li>Sigma Pi Sigma - Physics Honors Society</li>
+                    <li>Sigma Alpha Pi - National Society of Leadership and Success</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer>
+        
+    </footer>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax-utils.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
