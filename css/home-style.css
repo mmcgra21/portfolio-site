@@ -48,7 +48,7 @@ img {
     width: 80%;
     margin: 10px auto;
 }
-#big {
+.b {
     display: none;
 }
 
@@ -62,10 +62,10 @@ img {
         display: block;
         height: 125px;
     }
-    #small {
+    .s {
         display: none;
     }
-    #big {
+    .b {
         display: block;
     }
     section {
